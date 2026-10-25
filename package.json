@@ -1,0 +1,47 @@
+{
+  "name": "checkers-pdn-openings",
+  "version": "1.0.0",
+  "description": "Official Portable Draughts Notation (PDN 3.0) coordinate parser, 1-32 board utility, 18 classical GAYP master openings, and tactical puzzle dataset for 8x8 American Checkers & English Draughts.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "jsdelivr": "pdn-utils.js",
+  "unpkg": "pdn-utils.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "pdn-utils.js",
+    "openings-pdn.json",
+    "puzzles-pdn-sample.json",
+    "CITATION.cff",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node -e \"const lib = require('./index.js'); if (lib.OPENINGS_PDN.openings.length !== 18) process.exit(1); console.log('All 18 PDN openings & coordinate helpers verified.');\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Machine4321/checkers-pdn-openings.git"
+  },
+  "keywords": [
+    "checkers",
+    "draughts",
+    "pdn",
+    "portable-draughts-notation",
+    "checkers-solver",
+    "checkers-openings",
+    "board-game",
+    "minimax",
+    "nnue",
+    "game-theory"
+  ],
+  "author": {
+    "name": "Next Checkers Move",
+    "url": "https://nextcheckersmove.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Machine4321/checkers-pdn-openings/issues"
+  },
+  "homepage": "https://nextcheckersmove.com/"
+}

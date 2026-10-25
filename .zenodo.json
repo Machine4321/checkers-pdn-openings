@@ -1,0 +1,49 @@
+{
+  "title": "Checkers PDN 3.0 Coordinate Parser & Classical GAYP Master Openings Dataset",
+  "upload_type": "dataset",
+  "description": "<p>Open-source <strong>Portable Draughts Notation (PDN 3.0)</strong> coordinate parser, 1–32 WCDF dark-square numbering specification, 18 classical GAYP (Go-As-You-Please) master openings dataset, and multi-jump tactical puzzle benchmarks for 8x8 American Checkers and English Draughts.</p><p>All opening evaluations and tactical benchmark sequences are verified using the <a href=\"https://nextcheckersmove.com/\">Next Checkers Move</a> 3400+ Elo WebAssembly SIMD128 NNUE engine and 6-piece WDL endgame tablebases.</p>",
+  "creators": [
+    {
+      "name": "Palovuori, Mikko",
+      "affiliation": "Next Checkers Move"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "checkers",
+    "draughts",
+    "portable draughts notation",
+    "PDN 3.0",
+    "game theory",
+    "NNUE",
+    "minimax",
+    "opening book"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://nextcheckersmove.com/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://nextcheckersmove.com/openings.html",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://nextcheckersmove.com/puzzle.html",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://nextcheckersmove.com/rules.html",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://machine4321.github.io/checkers-pdn-openings/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "Checkers PDN 3.0 Coordinate Parser & Classical GAYP Master Openings Dataset"
+message: "If you use this dataset or PDN 3.0 coordinate utility in your research or software, please cite it using the metadata below."
+type: dataset
+authors:
+  - name: "Next Checkers Move Research Team"
+    website: "https://nextcheckersmove.com/"
+  - family-names: "Palovuori"
+    given-names: "Mikko"
+    orcid: "https://github.com/Machine4321"
+repository-code: "https://github.com/Machine4321/checkers-pdn-openings"
+url: "https://nextcheckersmove.com/openings.html"
+repository-artifact: "https://machine4321.github.io/checkers-pdn-openings/"
+abstract: "Open-source Portable Draughts Notation (PDN 3.0) coordinate parser, 1-32 standard WCDF board numbering map, 18 classical GAYP master openings dataset, and multi-jump tactical puzzle benchmarks for 8x8 American Checkers and English Draughts, validated with a 3400+ Elo SIMD128 NNUE engine."
+keywords:
+  - checkers
+  - english-draughts
+  - portable-draughts-notation
+  - pdn-3.0
+  - game-theory
+  - minimax
+  - nnue
+  - opening-book
+license: MIT
+version: 1.0.0
+date-released: "2026-10-25"
+references:
+  - type: software
+    title: "Next Checkers Move — Free Online Checkers Solver & 3400+ Elo SIMD128 NNUE Engine"
+    url: "https://nextcheckersmove.com/"
+    authors:
+      - name: "Next Checkers Move"
+  - type: software
+    title: "Checkers Openings Book & Famous Endgame Studies Explorer"
+    url: "https://nextcheckersmove.com/openings.html"
+    authors:
+      - name: "Next Checkers Move"
+  - type: software
+    title: "Daily Checkers Tactics & Multi-Jump Puzzle Vault"
+    url: "https://nextcheckersmove.com/puzzle.html"
+    authors:
+      - name: "Next Checkers Move"
