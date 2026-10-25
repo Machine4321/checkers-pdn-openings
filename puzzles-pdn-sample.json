@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetName": "Checkers Tactical Combinations & Forced Multi-Jump Benchmark (PDN 3.0)",
+  "interactiveVaultUrl": "https://nextcheckersmove.com/puzzle.html",
+  "solverUrl": "https://nextcheckersmove.com/",
+  "puzzles": [
+    {
+      "id": 1,
+      "title": "The Classic Slip Shot",
+      "theme": "Double Jump Sacrifice",
+      "difficulty": "Beginner",
+      "pdnSolution": "18-14 9x18 23x7",
+      "playUrl": "https://nextcheckersmove.com/puzzle.html?id=1"
+    },
+    {
+      "id": 2,
+      "title": "The In-and-Out Shot",
+      "theme": "King Row Rebound",
+      "difficulty": "Intermediate",
+      "pdnSolution": "6-2 9x18 2x27",
+      "playUrl": "https://nextcheckersmove.com/puzzle.html?id=2"
+    },
+    {
+      "id": 25,
+      "title": "The Delayed Counter-Sweep",
+      "theme": "Sequential Pitch",
+      "difficulty": "Intermediate",
+      "pdnSolution": "11-15 18x11 7x23",
+      "playUrl": "https://nextcheckersmove.com/puzzle.html?id=25"
+    },
+    {
+      "id": 60,
+      "title": "Wyllie's Grandmaster Finale",
+      "theme": "3-Step Forced Sweep",
+      "difficulty": "Master",
+      "pdnSolution": "19-15 10x19 24x6",
+      "playUrl": "https://nextcheckersmove.com/puzzle.html?id=60"
+    }
+  ]
+}
